@@ -13,5 +13,15 @@ namespace LayOutPageTest.Controllers
         {
             return View();
         }
+
+        public ActionResult Dummy()
+        {
+            return View();
+        }
+
+        public ActionResult BootStrapModal()
+        {
+            return View();
+        }
     }
 }

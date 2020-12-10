@@ -166,6 +166,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\TestLayout.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Test\Dummy.cshtml" />
+    <Content Include="Views\Test\BootStrapModal.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

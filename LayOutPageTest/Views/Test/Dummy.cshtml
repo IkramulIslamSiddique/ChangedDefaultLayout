@@ -1,0 +1,342 @@
+﻿
+@{
+    ViewBag.Title = "Dummy";
+    Layout = "";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Modal Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="row navbar navbar-default navigation" style="margin-top: 20px;border-bottom-color: #e7e7e7;border-top-color: #ffffff;">
+        <div class="container">
+            <div class="navbar-header visible-xs visible-sm">
+                <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" style="padding: 5px 15px;" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i aria-hidden="true" class="fa fa-user" style="font-size: 22px;"></i>
+                </button><a class="navbar-toggle collapsed" href="tel:09638010303" style="color:#f58228; font-size: 24px;padding: 0px 12px;"><i class="fa fa-phone"></i></a>
+                <a class="navbar-brand" href="https://deliverytiger.com.bd/" style="padding: 10px 15px;">
+                    <img class="image-responsive" src="https://static.ajkerdeal.com/images/dt/newlogin/tiger-logo.svg">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse ng-container" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right visible-sm visible-xs">
+                    <li class="text-center">
+                        <div class="center-block">
+                            <div class="form-group-user col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 10px;">
+                                <input class="form-control form-input-user  " maxlength="11" placeholder="মোবাইল নম্বর" type="text">
+                            </div>
+                            <div class="form-group-user col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 10px;">
+                                <input class="form-control form-input-user  " placeholder="পাসওয়ার্ড" type="password">
+                            </div>
+                            <div class="form-group-user col-lg-3 col-md-6 col-sm-6" role="group" style="width: auto;margin-bottom: 10px;margin-top: 4px;">
+                                <button class="btn btn-success" style="background: #207238;width: 100%;" type="button">লগইন করুন</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 visible-md visible-lg">
+                <div class="logo-wrap" style="padding-bottom: 13px;text-align: center;">
+                    <a href="https://deliverytiger.com.bd/">
+                        <img src="https://static.ajkerdeal.com/images/dt/newlogin/tiger-logo.svg" style="width: 195px;">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <!---->
+            </div>
+            <div class="col-lg-7 visible-md visible-lg">
+                <div class="center-block">
+                    <div class="form-group-user col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 10px;">
+                        <input class="form-control form-input-user  " maxlength="11" placeholder="মোবাইল নম্বর" type="text">
+                    </div>
+                    <div class="form-group-user col-lg-3 col-md-6 col-sm-6" style="margin-bottom: 10px;">
+                        <input class="form-control form-input-user  " placeholder="পাসওয়ার্ড" type="password">
+                    </div>
+                    <div class="form-group-user col-lg-3 col-md-6 col-sm-6" role="group" style="width: auto;margin-bottom: 10px;margin-top: 4px;">
+                        <button class="btn btn-success" style="background: #207238;width: 100%;" type="button">লগইন করুন</button>
+                    </div>
+                    <div class="row center-block btn-extra visible-xs visible-sm" style="text-align:center;">
+                        <div class="form-group-user col-7  col-lg-7 col-md-7 col-sm-7" style="width: auto;">
+                            <label class="re-checkbox-lbl">
+                                <input type="checkbox">
+                                <span class="re-checkmark"></span>
+                                আমাকে মনে রাখুন
+                            </label>
+                        </div>
+                        <div class="form-group-user col-5 col-lg-5 col-md-5 col-sm-5" style="width: auto;">
+                            <a href="/reset-password">পাসওয়ার্ড ভুলে গেছেন?</a>
+                        </div>
+                    </div>
+                    <div class="form-group-user col-lg-3 col-md-6 col-sm-6" role="group" style="margin-bottom: 10px;margin-top: 4px;">
+                        <button class="btn btn-secondary" style="background: #727272;color: #fff;width: 100%;" type="button" tabindex="0">নতুন একাউন্ট খুলুন</button>
+                    </div>
+                </div>
+                <div class="row center-block btn-extra hidden-xs hidden-sm" style="text-align:center;">
+                    <div class="form-group-user col-7  col-lg-7 col-md-7 col-sm-7" style="width: auto;">
+                        <label class="re-checkbox-lbl">
+                            <input type="checkbox">
+                            <span class="re-checkmark"></span> আমাকে মনে রাখুন
+                        </label>
+                    </div>
+                    <div class="form-group-user col-5 col-lg-5 col-md-5 col-sm-5" style="width: auto;">
+                        <a style="margin: 0 22px;" href="/reset-password">পাসওয়ার্ড ভুলে গেছেন?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-lg-8 col-md-8">
+        <p style="font-size:18px;">
+            <b>About Us</b>
+        </p>
+        <div style="font-size:14px;">
+            <p>The demand and potential of the online courier and the sector are growing. At the same time, the need and acceptance of online-based courier services are also increasing. So here comes the Delivery Tiger, one of the biggest logistic companies in Bangladesh to meet the increasing demand.&nbsp;</p><p>Delivery Tiger is known as the first logistic marketplace in Bangladesh. We were established in 2019. We are mainly a cargo and freight company.&nbsp; We deliver in almost all the districts and Upazilas in Bangladesh, so it can be said that we are giving delivery to the whole country. We are the fastest delivery service provider in Bangladesh.&nbsp;</p><p>
+                <b>
+                    The Features of Delivery Tiger Online Courier:
+                </b>
+            </p>
+            <ul>
+                <li>
+                    <p>Tracking facility of parcels in online</p>
+                </li>
+                <li>
+                    <p>COD charge only 1.5%&nbsp;</p>
+                </li>
+                <li>
+                    <p>Payment every Tuesday</p>
+                </li>
+                <li>
+                    <p>There is no return charge</p>
+                </li>
+                <li>
+                    <p>Product Collection from your address (Now available for Dhaka and Chittagong) </p>
+                </li>
+                <li>
+                    <p>Delivery to 64 district cities and 492 Upazilas, etc.&nbsp;</p>
+                </li>
+            </ul>
+            <p><b>The Charge list for delivery is given below:</b></p>
+            <ul>
+                <li>
+                    <p><b>Same-day Delivery Cost</b></p>
+                </li>
+                <p>The same-day delivery cost is only 80 taka inside Dhaka city</p>
+                <li>
+                    <p><b>Next-day Delivery Cost</b></p>
+                </li>
+                <p>The same-day delivery cost is only 50 taka in Dhaka, Narayangonj, Gazipur, and Chittagong.</p>
+                <li>
+                    <p><b>Express Delivery Cost</b></p>
+                </li>
+                <p>The express-day delivery cost is only 90 taka in a maximum of 4 working days across the country.</p>
+            </ul>
+            <p>Some of the famous brands that put their trust in us are - <b>Rokomari.com, Jenneys, Lafz, Raw Fashion, Gadget &amp; Gear,</b> and hoping many more brands will take our services very soon.</p>
+            <p style="text-align:center;"><a class="btn btn-info btn-lg" href="/sign-up">Sign up Today</a></p><br>
+            <br><br><br>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="col-lg-4 col-md-4">
+        <div class="title-registration">
+            <h2>রেজিস্ট্রেশন </h2>
+        </div>
+        <div class="user-registration-form-wrap">
+            <!----><!---->
+            <div class="form-group-user ">
+                <input appblockcopypaste="" class="form-control form-input-user  " maxlength="11" placeholder="মোবাইল নম্বর EX: 01711000000" type="text">
+                <span class="errMsg"></span>
+            </div>
+            <div class="form-group-user">
+                <input class="form-control form-input-user  " placeholder="পাসওয়ার্ড" type="password">
+                <span class="errMsg"></span>
+            </div>
+            <div class="form-group-user">
+                <input class="form-control form-input-user  " placeholder="পুনরায় পাসওয়ার্ড দিন" type="password">
+                <span class="errMsg"></span>
+            </div>
+            <div class="form-group">
+                <button class="button-registration" type="button"> রেজিস্ট্রেশন করুন </button>
+            </div>
+            <div class="bottom-wrap">
+                <span class="login-text-span">
+                    একাউন্ট আছে?
+                    <a href="/login"><span class="login-span">লগইন করুন</span></a>
+                </span>
+            </div>
+            <!---->
+        </div>
+    </div>
+
+
+
+
+
+    <img src="https://static.ajkerdeal.com/images/dt/newlogin/postal.png" style="margin-bottom: 10px;max-width: 356px;">
+
+
+    <img src="https://static.ajkerdeal.com/images/dt/newlogin/express.png" style="margin-bottom: 10px;max-width: 356px;">
+
+
+
+
+
+
+    <div class="logo-wrap" style="padding: 10px;">
+        <span style="padding: 10px;font-weight: 500;">ডাউনলোড অ্যাপ</span>
+        <br>
+        <a href="https://play.google.com/store/apps/details?id=com.bd.deliverytiger.app">
+            <img src="https://static.ajkerdeal.com/images/dt/newlogin/google-play.webp" style="width: 140px; margin-top: 10px;">
+        </a>
+    </div>
+
+
+
+    <div class="row">
+        <hr style="border: none;margin-top: 35px;">
+        <div class="col-sm-12 visible-md visible-lg" style="margin-top: 35px;">
+            <span class="col-lg-2 col-md-2 col-sm-6 col-xs-6 text-decoration-none text-center borderBtm" style="color: #fff;padding: 0;">
+                <strong>ডেলিভারি টাইগার পার্টনার :</strong>
+            </span>
+            <hr class="visible-xs visible-sm">
+            <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                <a href="https://blog.ajkerdeal.com/" style="color: #fff;text-decoration:none">আজকেরডিল ব্লগ </a>
+            </span>
+            <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                <a href="https://classified.ajkerdeal.com/" style="color: #fff;text-decoration:none">ক্লাসিফাইড সাইট </a>
+            </span>
+            <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                <a href="http://deliverybondhu.com/" style="color: #fff;text-decoration:none">ডেলিভারি বন্ধু </a>
+            </span>
+            <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                <a href="https://ajkerdeal.com/" style="color: #fff;text-decoration:none">আজকেরডিল </a>
+            </span>
+            <span class="col-lg-2 col-md-2 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                <a href="https://blog.deliverytiger.com.bd" style="color: #fff;text-decoration:none">ডেলিভারিটাইগার ব্লগ </a>
+            </span>
+        </div>
+        <div class="col-sm-12 visible-sm visible-xs">
+            <a aria-controls="collapseExample" aria-expanded="false" class="col-lg-2 col-md-2 col-sm-6 col-xs-6 text-decoration-none text-center borderBtm" data-toggle="collapse" href="#collapseExample" role="button" style="color: #fff;padding: 0;text-decoration: none;cursor: pointer;">
+                <strong>
+                    ডেলিভারি টাইগার পার্টনার
+                    <img src="https://static.ajkerdeal.com/images/dt/newlogin/down_arrow.svg" style="width:15px">
+                </strong>
+            </a>
+            <hr class="visible-xs visible-sm">
+            <div class="collapse" id="collapseExample">
+                <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                    <a href="https://blog.ajkerdeal.com/" style="color: #fff;text-decoration:none">আজকেরডিল ব্লগ </a>
+                </span>
+                <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                    <a href="https://classified.ajkerdeal.com/" style="color: #fff;text-decoration:none">ক্লাসিফাইড সাইট </a>
+                </span>
+                <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                    <a href="http://deliverybondhu.com/" style="color: #fff;text-decoration:none">ডেলিভারি বন্ধু </a>
+                </span>
+                <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                    <a href="https://ajkerdeal.com/" style="color: #fff;text-decoration:none">আজকেরডিল </a>
+                </span>
+                <span class="col-lg-1 col-md-1 col-sm-6 col-xs-6 text-center pt" style="padding: 0;">
+                    <a href="https://blog.deliverytiger.com.bd" style="color: #fff;text-decoration:none">ডেলিভারিটাইগার ব্লগ </a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="col-lg-4">
+        <div class="about_content">
+            <a href="/about-us">আমাদের সম্পর্কে জানুন</a>
+        </div>
+        <div class="about_content">
+            <a href="/why-choose-us">কেন আমাদের সার্ভিস নিবেন</a>
+        </div>
+        <div class="about_content">
+            <a href="/package-tracking">প্যাকেজ ট্র্যাকিং</a>
+        </div>
+        <div class="about_content">
+            <a href="/logistics-services">লজিস্টিকস সার্ভিসেস</a>
+        </div>
+        <div class="about_content">
+            <a href="/service-areas">সার্ভিস এরিয়া</a>
+        </div>
+        <div class="about_content">
+            <a href="/service-and-express">সার্ভিস এবং এক্সপ্রেস</a>
+        </div>
+        <div class="about_content">
+            <a href="/terms-and-conditions">টার্মস এন্ড কন্ডিশনস </a>
+        </div>
+    </div>
+
+
+
+
+    <div class="col-lg-4">
+        <div class="about_content">
+            <a href="/cash-on-delivery-service">ক্যাশ অন ডেলিভারি সিস্টেম</a>
+        </div>
+        <div class="about_content">
+            <a href="/home-delivery-service">হোম ডেলিভারি সার্ভিস</a>
+        </div>
+        <div class="about_content">
+            <a href="/local-courier-service">লোকাল ডেলিভারি সার্ভিস</a>
+        </div>
+        <div class="about_content">
+            <a href="/online-parcel-delivery-service">অনলাইন পার্সেল ডেলিভারি সার্ভিস</a>
+        </div>
+        <div class="about_content">
+            <a href="/ecommerce-courier-service">ই-কমার্স কুরিয়ার সার্ভিস</a>
+        </div>
+        <div class="about_content">
+            <a href="/delivery-fees-and-charge-list">ডেলিভারি চার্জ লিস্ট</a>
+        </div>
+
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <p>যোগাযোগ </p>
+        <hr class="style1" style="margin-bottom: 5px;margin-top: 5px;">
+        <div class="col">
+            <div style="font-weight: 500;">
+                প্লট # ২,লেভেল ০৫, সুমনা গনি ট্রেড সেন্টার পান্থপথ, ঢাকা-১২১৫
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 contact">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 phn">
+                        <div class="phn-box">
+                            <i class="fa fa-phone" style="color: darkgreen;"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 phn" style="padding: 0% 10px;margin-top: 5px;font-size: 24px;">
+                        ০৯৬৩৮০১০৩০৩
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

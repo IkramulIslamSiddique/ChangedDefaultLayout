@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "BootStrapModal";
+    //Layout = "";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Modal Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>মোডালের উদাহরণ</h3>
+        <!-- বাটনের মাধ্যমে মোডাল ট্রিগার -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalId">
+            মোডাল ওপেন করুন
+        </button>
+
+        <!-- মোডাল -->
+        <div class="modal fade" id="modalId" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- মোডাল কন্টেন্ট -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h4 class="modal-title">মোডাল হেডার</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>মোডাল বডি। এখানে মোডালের কন্টেন্ট রাখা হয়।</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">ক্লোজ</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
